@@ -1,0 +1,55 @@
+
+.search_song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #202020;
+    margin-left: 20px;
+}
+.search_song img{
+    height: 12rem;
+}
+.search_song li{
+    color: rgb(16, 99, 131);
+    list-style: disc;
+    margin-left: 20px;
+}
+.search_song li span{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.search_song p{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 28px;
+    margin-bottom: 5px;
+}
+/* Search Bar */
+.buttons-right-search{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 50rem;
+    margin-bottom: 1rem;
+}
+
+ .search-bar{
+margin-left: 5rem;
+height: 2rem;
+width: 20rem;
+border-radius: 20px;
+padding-left: 50px;
+font-family: 'Circular Std', sans-serif;
+}
+.radio-button .fa-magnifying-glass{
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 7.4px;
+    
+}
